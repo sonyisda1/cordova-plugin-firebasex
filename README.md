@@ -1245,7 +1245,7 @@ Registers a handler to call when the FCM token changes.
 This is the best way to get the token as soon as it has been allocated.
 This will be called on the first run after app install when a token is first allocated.
 It may also be called again under other circumstances, e.g. if `unregister()` is called or Firebase allocates a new token for other reasons.
-You can use this callback to return the token to you server to keep the FCM token associated with a given user up-to-date. 
+You can use this callback to return the token to your server to keep the FCM token associated with a given user up-to-date. 
 
 **Parameters**:
 - {function} success - callback function which will be passed the {string} token as an argument
